@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupaciones Musicales</title>
+    <link rel="shortcut icon" href="./img/logo.png" />
+    <!-- Archico CSS principal -->
+    <link rel="stylesheet" href="./LideresEspirituales.css">
+    <!-- Para iconos de Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Libreria Lightbox para las galerias de imagenes -->
+    <link rel="stylesheet" href="../lightbox/lightbox.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+
+            <div class="logo-container">
+                <a href="../Pagina_Principal/index.html" class="logo"><img src="./img/logo.png"> Congregación Mita </a>
+            </div>
+
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="#">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-link" style="--i: .86s">
+                            <a href="#"> Líderes espirituales <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Juanita García Peraza</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html" >Teófilo Vargas Seín</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Música <i
+                                    class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">Banda de
+                                            viento</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">Academias
+                                            musicales</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">Agrupación de
+                                            arpas</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">Agrupación de
+                                            cuerdas
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm">Coro de Mita
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Países <i class="fa-solid fa-caret-down i3"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Puerto Rico</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Estados Unidos</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">República Dominicana</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Más</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Más de  nosotros <i class="fa-solid fa-caret-down i4"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">Cuerpos
+                                            ministeriales</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Obra_Social/ObraSocial.html">Obra social</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Niñez_y_Juventud/NiñezYJuventud.html">Niñez y juventud</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Eventos_Historicos/EventosHistoricos.html">Eventos históricos</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Eventos_Historicos/EventosHistoricos.html">Templo principal</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Contactanos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#"><i class="fa-solid fa-earth-americas"
+                                    style="font-size: 20px; padding-top: 10px; "></i> <i
+                                    class="fa-solid fa-caret-down i5"></i></a>
+                            <div class="dropdown dropdown-idiomas">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Español</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">English</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Italiano</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Deutsch</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Português</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Français</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">日本</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">中国人</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Contenido Princial -->
+
+    <div class="title">
+        <h1>Lideres Espirituales</h1>
+    </div>
+
+    <div class="mainContent">
+
+        <div class="fotosProfetas">
+            <img src="./img/juanita-garcia-peraza.jpeg" id="Mita">
+            <img src="./img/teofilo-vargas-sein.jpeg" id="Aaron">
+            <img src="./img/rosinin-rodriguez-perez - 2.jpeg" id="Rosinin">
+        </div>
+
+        <div class="bioProfetas">
+            <div class="textBio1" id="tb1">
+                <div class="textInsideBio">
+                    <center>
+                        <h1>Juanita García Peraza</h1>
+                    </center>
+                </div>
+                </br></br>
+                <p>
+                    Juanita García Peraza nació el 24 de junio de 1897 en Hatillo, Puerto Rico. Descendía de una familia
+                    de clase social alta. Desde niña demostró grandes valores morales y espirituales, amor por los
+                    pobres, una gran sensibilidad ante el dolor ajeno, valentía, integridad y caridad.
+                    </br></br>
+
+                <div class="EXP">
+                    <div class="row">
+                        <div class="left">
+                            <img src="./img/lider-1/lider-1.6.jpg" id="bio_1_Img_1" width="270" height="400">
+                        </div>
+                        <div class="right">
+                            <div class="content">
+                                <p>
+                                    Para la década de los 20, Juanita padeció de una enfermedad gástrica severa que la
+                                    mantuvo en
+                                    tratamiento médico por 12 años. Se agravó tanto el padecimiento, que no podía ni
+                                    siquiera
+                                    ingerir
+                                    alimentos. Los médicos la desahuciaron y fue entonces cuando, en su lecho, Juanita
+                                    clamó a Dios
+                                    y le
+                                    prometió que si la sanaba, le serviría e iría por campos y pueblos anunciando el
+                                    evangelio de
+                                    salud
+                                    y salvación. Dios oyó su clamor; una ancianita que acostumbrada visitar a los
+                                    enfermos llegó a
+                                    su
+                                    casa y le oró, quedando Juanita totalmente sana al instante. Desde aquel momento
+                                    cumplió su
+                                    promesa
+                                    y se entregó a Dios, uniéndose a la Iglesia Pentecostal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </br></br>
+                Comenzó a distinguirse en la iglesia por su amor, humildad, consagración y santidad. Fue presidenta
+                del grupo de damas y Dios la usaba en profecía, reprendía el pecado y llamaba a la unidad del pueblo
+                de Dios. Los líderes de la iglesia no pudieron entender que en ella se manifestaba el Espíritu de
+                Dios; no aceptaron el gran plan del Señor de unificar su Iglesia. Debido a esto, Juanita confrontó
+                situaciones de inmenso dolor: la humillaron, por ser mujer la mandaban a callar; pero ella siempre
+                fue tan humilde que esperaba confiada en el que la escogió. El Espíritu Santo de Dios le dijo un
+                día: <i><b>«Mi sierva, préstame tu cuerpo; te necesito para una gran obra. El que te oye a ti me oye
+                        a mí y el que se una contigo, se unirá conmigo».</b></i>
+                </br></br>
+                Afligida por toda la persecución que se levantó en su contra, clamó a Dios, y mientras oraba en su
+                habitación, vio por revelación descender del cielo una estrella en movimiento circular. En su mente
+                se preguntaba dónde caería, pero esta chocó en su frente: era la luz del Espíritu Santo de Dios
+                confirmando su ministerio.
+                </br></br>
+
+                <div class="EXP">
+                    <div class="row">
+                        <div class="left">
+                            <p>
+                                En el año 1940, junto a 11 hermanos, sale de la Iglesia Pentecostal y comienza a
+                                predicar un triple
+                                mensaje de amor, libertad y unidad. Estos fueron los siguientes: <i>Teófilo Vargas
+                                    Seín (Aarón),
+                                    Pedro Vargas, Encarnación Seín (Concepción), Luis Barrios, Octavio Velázquez,
+                                    Blasina Barreto,
+                                    Juan Catalán, Tomasa Catalán, Justa Corchado, Juana Allende y José “Pepe”
+                                    Pastoriza</i>.
+                                Se conforma la Iglesia Libre y comienzan a reunirse en Arecibo, tanto en casas de
+                                los hermanos
+                                recién convertidos como en templos alquilados. Juanita García decidió dejar todas
+                                sus posesiones
+                                materiales para servirle a Dios en humildad.
+                            </p>
+                        </div>
+                        <div class="right">
+                            <div class="content">
+                                <img src="./img/lider-1/lider-1.8.jpg" id="bio_1_Img_2" width="250" height="250">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                En el año 1947, la Congregación se traslada a la ciudad capital, San Juan; desde allí empieza a
+                desarrollarse y extender su mensaje. Además de la gran labor espiritual, ella realizó una
+                extraordinaria labor social-comunitaria. Predicó de la mejor manera: con su ejemplo. Logró convertir
+                su comunidad en una totalmente organizada. Desarrolló cooperativas y corporaciones que le ofrecían
+                la oportunidad de empleo y de grandes beneficios y mejoramiento económico a los miembros de la
+                comunidad. Estableció una escuela bíblica, conocida como el Consejero, para instruir, orientar y
+                guiar a los niños en su desarrollo integral. Creó academias musicales, bandas y coros. Entre sus
+                múltiples composiciones se destacan los siguientes himnos: <i>Marcha triunfal, Bienvenidos, El
+                    candelero, La visión, Los justos, Los limpios de corazón, La piedrecita blanca, Si has obrado
+                    como creyente, Los muros de la ciudad,</i> entre otros.
+                </br></br>
+
+                <div class="EXP">
+                    <div class="row">
+                        <div class="left">
+                            <img src="./img/lider-1/lider-1.2.jpeg" id="bio_1_Img_3" width="240" height="370">
+                        </div>
+                        <div class="right">
+                            <div class="content">
+                                <p>
+                                    Estableció un Cuerpo de Guardas con el propósito de dar vigilancia gratuita a todas
+                                    las propiedades
+                                    que la Congregación iba adquiriendo y a la comunidad en general. Estableció un
+                                    cuerpo de
+                                    predicadores, predicadoras, diáconos y diaconisas que hacen el bien, predican, oran
+                                    por los enfermos
+                                    y realizan una extraordinaria labor dondequiera llega la Congregación Mita.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                Como visionaria, anheló y profetizó la creación de una égida para el cuidado de las personas de
+                mayor edad y un colegio para niños y adolescentes de la comunidad, que después de su deceso fueron
+                hechos realidad. Ella realizó una gran labor misionera visitando enfermos en sus casas y hospitales,
+                orando por ellos, ofreciendo ayuda a los necesitados y haciendo el bien a manos llenas. Visitaba las
+                cárceles con palabras de aliento, consuelo y amor. Su labor evangelística fue sorprendente. Siempre
+                hubo en sus labios exhortación y consejo mediante la palabra sabia, la amonestación a tiempo, pero a
+                la vez la paciencia y templanza que siempre la caracterizaron. De este modo, era de esperarse que su
+                labor ministerial influyera grandemente en el campo social y el mejoramiento personal de muchos
+                seres humanos y de familias completas en todo Puerto Rico. Muchos alcohólicos, adictos a drogas y
+                deprimidos fueron rescatados y actualmente son mujeres y hombres de provecho, ciudadanos
+                responsables y de bien. Sus profundas predicaciones de gran contenido espiritual lograban el
+                propósito divino de transformar a todo aquel que oyera y aceptara el mensaje.
+                </br></br>
+                Fue tal su influencia que traspasó los lindes de Puerto Rico hacia tierras extranjeras,
+                estableciéndose la Congregación en Estados Unidos (Washington D.C., Chicago y Nueva York) y en la
+                República Dominicana (Santo Domingo y Santiago de los Caballeros).
+                </br></br>
+                Resaltamos que Juanita García Peraza dio oportunidad de expresión total a la mujer al permitirle
+                amplia participación en la Iglesia. <img src="./img/lider-1/lider-1.1.jpeg" id="bio_1_Img_4" width="250"
+                    height="290"> Ella marcó el inicio de una nueva era para la mujer
+                en Puerto Rico y el mundo. En una época en la cual no le era permitido oficiar en la Iglesia,
+                Juanita rompe barreras y abre camino para la difusión del pastorado femenino, confirmando las
+                palabras del profeta Isaías 27,11: <i><b>«Cuando sus ramas se secaren serán quebradas y mujeres
+                        vendrán a encenderlas»</b></i>. Así como Débora se levantó como madre espiritual en Israel,
+                Juanita García Peraza se levantó como madre para juntar un pueblo para salvación.
+                </br></br>
+                Luego de haber realizado una extraordinaria labor por 30 años, el 21 de febrero de 1970, fue llamada
+                por Dios al descanso eterno. La obra de sus manos prevalece en el corazón de su pueblo, como
+                testimonio fiel de su lucha incansable y su amor incondicional. Antes de culminar su ministerio,
+                delante de un grupo de testigos, llamó a Aarón y le dijo: <i>«Cuida mis hijos que yo te pagaré»</i>,
+                entregándole su obra para que continuara su legado. Para el año 1978, se le otorgó el grado de
+                Doctorado de Filosofía en Administración honoris causae.
+                </br></br>
+                </p>
+            </div>
+            <div class="textBio2" id="tb2">
+                <div class="textInsideBio">
+                    <center>
+                        <h1>Teófilo Vargas Seín</h1>
+                    </center>
+                </div>
+                </br></br>
+                <p>
+                    Teófilo Vargas Seín (mejor conocido por su nombre espiritual Aarón) nació en la madrugada del 23 de
+                    octubre de 1921, en una humilde casita en el barrio Aibonito de Hatillo, Puerto Rico. Sus padres
+                    fueron Pedro Vargas y Encarnación “Concepción” Seín. Ante un difícil embarazo, Concepción clamó a
+                    Dios que le permitiera tener un buen alumbramiento y le prometió que, si su niño nacía sano, ella lo
+                    entregaría enteramente al servicio de Dios.
+                    <img src="./img/lider-2/lider-2.1.jpeg" id="bio_2_Img_1" width="270" height="400">
+                    Su petición fue concedida y el niño fue llamado Teófilo, que significa «amado de Dios».
+                    </br></br>
+                    Teófilo creció bajo la gracia divina con la recta dirección de unos padres celosos del bien, dentro
+                    de un hogar humilde, lleno de honra, cristiandad y grandes valores espirituales. Era un hijo
+                    disciplinado, trabajador y ayudador de sus padres. Asistía junto a ellos a una Iglesia Pentecostal y
+                    participaba entusiasmado en estudios bíblicos e interpretaba los textos con virtud espiritual. Como
+                    anhelaba incansablemente aprender, buscaba a los ancianos de la Iglesia para adquirir de ellos mayor
+                    sabiduría. Cuando tenía 10 años de edad, la familia se trasladó a Arecibo, donde deseaba aún más los
+                    dones espirituales y estudiaba la Biblia.
+                    </br></br>
+                    Un día mientras caminaba por el pueblo de Arecibo vio a Juanita García Peraza. Reconoció que era una
+                    dama especial y llena de Dios, aun sin conocerla personalmente. Fue tal el asombro que nunca se
+                    olvidó de su rostro. Dios dispuso que sus padres llegaran a la misma Iglesia Pentecostal que ella
+                    frecuentaba. Cuando él la vio la reconoció, pero cuál fue su asombro que esa noche la pusieron a
+                    predicar. El alma de aquel niño vibraba, y en esos momentos pudo entender que Dios hablaba a través
+                    de su boca. Sintió una alianza inexplicable con ella y le seguía a todas partes.
+                    </br></br>
+                <div class="EXP">
+                    <div class="row">
+                        <div class="left">
+                            <p>
+                                En el año 1936, contando Teófilo con 15 años, llegó hasta la casa de la hermana Juanita
+                                y la
+                                encontró arrodillada orando.
+                                Al ver esto, él se arrodilló en la otra esquina de la sala para no interrumpirla, hasta
+                                que
+                                súbitamente el Espíritu Santo la arrebató, buscó aceite de oliva (líquido que el
+                                Espíritu Santo
+                                siempre ha utilizado para la unción de sus instrumentos escogidos) y lo derramó sobre su
+                                cabeza
+                                diciéndole: «Te unjo para ministro del Reino». Desde aquel momento fue consagrado para
+                                la prédica de
+                                la palabra de Dios.
+                            </p>
+                        </div>
+                        <div class="right">
+                            <div class="content">
+                                <img src="./img/lider-2/lider-2.4.jpeg" id="bio_2_Img_2" width="240" height="320">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                Teófilo formó parte del grupo de 11 hermanos que en 1940 salió de la Iglesia Pentecostal junto a
+                Juanita García Peraza. Desde ese momento se lanzó por campos y pueblos de Puerto Rico anunciando que
+                el Espíritu Santo estaba juntando un pueblo para salvación y hablaba por los labios de una dama en
+                Arecibo. Además de haber sido el primer predicador, también fue el primer guarda, primer
+                administrador, primer constructor, agricultor y músico de percusión de la Banda. Se destacaba en la
+                Congregación por su santidad, abnegación y compromiso con la Obra de Mita.
+                </br></br>
+                En 1957, gestiona y lidera todos los trámites para la incorporación de la Congregación ante el
+                Estado Libre Asociado de Puerto Rico. Fue nombrado vicepresidente de la Junta de Directores. Dios
+                fue sembrando en él todas aquellas cualidades que debía poseer un profeta: santidad, entereza,
+                firmeza de carácter,
+                <img src="./img/lider-2/lider-2.9.jpeg" id="bio_2_Img_3" width="200" height="300">
+                disposición al sacrificio, valor para enfrentar los problemas, sabiduría y discernimiento divino,
+                templanza, benignidad, bondad, caridad y sobre todo, un inmenso amor por las almas.
+                </br></br>
+                Por haber sido escogido desde antes de nacer, y ungido para ministro del Reino, cuando el Señor
+                consideró llevar a descansar el cuerpo de Juanita García Peraza, le encomendó a Aarón su pueblo
+                diciendo: <i><b>«Cuida mis hijos que yo te pagaré»</b></i>. Es así como en 1970, Aarón asume
+                valerosamente la dirección de la Congregación Mita.
+                </br></br>
+                Bajo su guianza se inicia el crecimiento arrollador de la Obra de Mita, expandiéndose mucho más en
+                la República Dominicana y Estados Unidos, y estableciéndose en Colombia, México, Venezuela, Costa
+                Rica, Panamá, El Salvador, Canadá, Ecuador, España y Suiza.
+                </br></br>
+                Dedicó toda su vida a la prédica evangelística, a ayudar a las personas necesitadas y a visitar los
+                hospitales orándole gratuitamente a los enfermos, sin importar si fuesen o no miembros de la
+                Congregación. En todos los países donde llegó la Obra de Mita, estableció bandas musicales, cuerpo
+                de guardas y construyó templos. Siempre fue a estos países a llevar la palabra alentadora y el
+                triple mensaje de amor, libertad y unidad.
+                </br></br>
+                <div class="EXP">
+                    <div class="row">
+                        <div class="left">
+                            <p>
+                                Estableció el Colegio Congregación Mita, la Égida e Institución El Paraíso, la Oficina
+                                de
+                                Orientación y Trabajo Social y Los Hermanos Memorial Park.
+                                Ha inspirado a toda la Congregación con su ejemplo y trabajo. En el año 2003, en la
+                                inauguración del
+                                nuevo templo de la congregación de Santo Domingo, el exgobernador de Puerto Rico, Hon.
+                                Rafael
+                                Hernández Colón se expresó así de Aarón: «Este varón manda y va, y lo que predica lo
+                                practica».
+                            </p>
+                        </div>
+                        <div class="right">
+                            <div class="content">
+                                <img src="./img/lider-2/lider-2.10.jpeg" id="bio_2_Img_4" width="240" height="340">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                Promovió el desarrollo de las Bellas Artes con el establecimiento de academias musicales y bandas
+                alrededor de todo el mundo. Bajo su liderato se estableció la agrupación de arpas y la orquesta de
+                violines. Entre sus múltiples composiciones se destacan: <i>Mi encuentro con mita, Mita es la
+                    verdadera aurora, ¡Cuánto amo yo tu ley!, Gracias te damos, Llamando con amor, Los cielos
+                    cuentan tu gloria,</i> entre otras.
+                </br></br>
+                Luego de casi 85 años de ministerio y 51 años de estar al frente de la Obra de Mita, el 18 de enero
+                de 2021 fue llamado por Dios al descanso eterno. Desde el año 2012 había nombrado a Rosinín como
+                madre espiritual y líder de la Congregación.
+                </br></br>
+                </p>
+            </div>
+            <div class="textBio3" id="tb3">
+                <div class="textInsideBio">
+                    <center>
+                        <h1>Rosinín Rodríguez Pérez</h1>
+                    </center>
+                </div>
+                </br></br>
+                <p>
+                    Rosinín Rodríguez Pérez nació en Guayama, Puerto Rico, el 18 de octubre de 1937. Su madre fue Isabel
+                    Pérez Vázquez y su padre Heriberto Rodríguez Fonseca. A los cuatro años de edad fue a vivir a San
+                    Sebastián. Creció en un hogar lleno de grandes valores espirituales y morales. Desde niña se destacó
+                    por su amor, inteligencia, bondad, dulzura y su gran sensiblidad hacia las cosas espirituales.
+                    <img src="./img/lider-3/lider-3.3.jpg" id="bio_3_Img_1" width="200" height="300">
+                    Miraba hacia el cielo y le pedía a Jesús que quería caminar con él, que quería ver su rostro y estar
+                    con él como aquellos lo hicieron antiguamente.
+                    </br></br>
+                    Siendo muy niña enfermó gravemente y su madre clamó a Dios para que le enviara un ángel a sanarla.
+                    De pronto, Isabel tuvo una visión de un ángel niño, que caminaba descalzo, se posó sobre la camita
+                    de Rosinín y le oró. Inmediatamente la niña quedó completamente sana. Isabel siempre decía que el
+                    rostro santo de aquel ángel se le grabó en su mente y si algún día lo volvía a ver, lo reconocería.
+                    </br></br>
+                    En el año 1955, ingresó a la Universidad de Puerto Rico, Recinto de Mayagüez, en el programa de
+                    preingeniería, donde estudió por espacio de un año. En el 1956 pasó al Recinto de Río Piedras de la
+                    Universidad de Puerto Rico, Facultad de Ciencias Sociales. En el 1959 terminó su bachillerato en
+                    Ciencias Sociales con concentración en Psicología y Sociología. Luego completó 18 créditos a nivel
+                    de maestría en Consejería y 20 créditos en Educación de la Universidad de Puerto Rico.
+                    </br></br>
+
+                <div class="EXP">
+                    <div class="row">
+                        <div class="left">
+                            <p>
+                                Su primera experiencia de trabajo fue en la Biblioteca José M. Lázaro de la Universidad
+                                de Puerto
+                                Rico, Recinto de Río Piedras, como ayudante de bibliotecaria. Su segunda experiencia de
+                                trabajo fue
+                                en la Escuela Intermedia J. R. Dávila de Bayamón, donde ejerció como maestra de Español
+                                y de
+                                Estudios Sociales. En el 1960 fue maestra visitante en los campamentos del Departamento
+                                de
+                                Educación. En el 1961 trabajó en Rehabilitación Vocacional como consejera, donde tuvo la
+                                oportunidad
+                                de ayudar a varios hermanos de la Congregación a terminar sus carreras vocacionales.
+                                Luego, pasó a
+                                trabajar en la sección de Determinación de Incapacidad del Seguro Social como consejera.
+                            </p>
+                        </div>
+                        <div class="right">
+                            <div class="content">
+                                <img src="./img/lider-3/lider-3.1.jpg" id="bio_3_Img_2" width="230" height="300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                En el año 1962 trabajó en el Centro de Oportunidades para Jóvenes del Departamento de Educación.
+                Desde junio de 1965 hasta el mes de marzo de 1971 trabajó como consejera ocupacional en el
+                Departamento del Trabajo.
+                </br></br>
+                El año 1962 fue trascendental en su vida, pues conoce a Mita y se unió a la Congregación. Su alma
+                quedó deslumbrada con la belleza espiritual de esta Obra; era lo que anhelaba de niña, caminar con
+                Jesús como lo hicieron aquellos antiguos. Todos los domingos visitaba la casa pastoral de la
+                Congregación, para compartir con la persona de Mita y los hermanos. Fue aprendiendo las leyes
+                espirituales y cómo debía ser un cristiano. Todas aquellas divinas enseñanzas resonaban en su
+                interior y la iban transformando. Para el año 1966, fue llamada por Dios para vivir en la casa
+                pastoral de la Congregación Mita. Desde ese momento sintió que Dios la preparaba para el futuro,
+                pues vio que con insistencia Mita le enseñaba la ley y a tratar a Aarón con amor y consideración.
+                </br></br>
+                En una ocasión, la persona de Mita quiso visitar a la madre de Rosinín. Cuando Isabel vio a Aarón
+                —que les acompañaba— se quedó anonadada y exclamó: <b><i>«¡Rosinín, él es el ángel que te sanó
+                        cuando eras una niña. Él es el ángel! Yo sabía que lo reconocería»</i></b>.
+                </br></br>
+                En el 1970, después del deceso de Juanita García Peraza, continuó fielmente al lado de Aarón
+                colaborando en todos los proyectos de la Congregación.
+                <img src="./img/lider-3/lider-3.2.jpg" id="bio_3_Img_3" width="425" height="300">
+                Acompañaba a Aarón en todos sus viajes ministeriales con miras a la expansión e internacionalización
+                de la Obra. Dondequiera que iba recibía el amor de tantos miles de hermanos que veían en ella a un
+                ser lleno de bondad y ternura.
+                </br></br>
+                Estuvo siempre brazo a brazo con Aarón en los múltiples proyectos arquitectónicos y de desarrollo de
+                la Obra de Mita, siendo siempre su persona de mayor confianza. Estaba al pendiente de todas las
+                construcciones, remodelaciones, ampliaciones y extensiones de los templos en todos los países.
+                Velaba por la correcta planificación y organización de todos los aspectos en la Congregación Mita.
+                Una y otra vez Aarón expresaba su reconocimiento a su esfuerzo, esmero y dedicación por el bien de
+                esta Obra de Mita.
+                </br></br>
+                Se ha destacado por sus grandes valores morales y espirituales, por su consagración, esmero,
+                dedicación y compromiso con la Congregación y con toda la feligresía.
+                </br></br>
+                Ha sido:
+                </br></br>
+
+                <div class="EXP">
+                    <div class="row">
+                        <div class="left">
+                            <p>
+                            <ul class="ulRosinin">
+                                <li>Miembro de la Casa Pastoral de la Congregación Mita.</li>
+                                <li>Miembro fundador y primera administradora del Colegio Congregación Mita.</li>
+                                <li>Miembro fundador de la Égida e Institución El Paraíso.</li>
+                                <li>Miembro fundador de la Oficina de Orientación y Asistencia Social y primera
+                                    administradora.</li>
+                                <li>Madrina de la Banda de Mita.</li>
+                                <li>Miembro fundador de Los Hermanos Memorial Park.</li>
+                                <li>Miembro fundador del Centro de Salud Médico Dr. Luis Daniel Silva.</li>
+                                <li>Presidenta de la Junta de Directores de la Corporación Los Hermanos.</li>
+                            </ul>
+                            </p>
+                        </div>
+                        <div class="right">
+                            <div class="content">
+                                <img src="./img/lider-3/lider-3.5.jpg" id="bio_3_Img_4" width="200" height="300">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </br>
+                Desde el año 2012 fue designada por el Espíritu Santo a través de Aarón como madre espiritual del pueblo
+                de Mita y la persona que le habría de suceder en la dirección de la Congregación.
+                </br></br>
+                Bajo su ministerio y dirección, la Obra de Mita se ha extendido a los países de Chile, Nicaragua e
+                Italia, continuando con el legado de expansión dejado por Aarón. Su composición artística es fecunda. Se
+                destacan sus himnos: <i>Amor santo, Candente amor, La vida, Eres mi motivo, Fe, amor y paz, No te
+                    olvides de mí, Sueña,</i> entre otros.
+                </br></br>
+                Desde el año 2021, cuando Aarón es llamado por Dios al descanso, Rosinín asumió el liderato de la
+                Congregación Mita y es el instrumento a través del cual oímos la voz de Dios.
+                </br></br>
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <div class="socialMediaIcons">
+                <div class="wrapper">
+                    <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+                        <div class="button">
+                            <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                            <span>Facebook</span>
+                        </div>
+                    </a>
+    
+                    <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+                        <div class="button">
+                            <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+                            <span>Youtube</span>
+                        </div>
+                    </a>
+    
+                    <a href="#">
+                        <div class="button">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <span>Contacto</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+            <div class="divider-icon">
+                <p><img src="./img/logo.png" /></p>
+            </div>
+    
+            <div class="footer-bottom">
+                <p>Congregación Mita Inc. Copyright © 2023 Derechos Reservados. Términos y Condiciones</p>
+            </div>
+        </footer>
+    </div> 
+
+
+
+    <!-- Footer -->
+
+    
+
+    <!-- Para los iconos -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Script -->
+    <script src="./LideresEspirituales.js"></script>
+    <script src="../lightbox/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

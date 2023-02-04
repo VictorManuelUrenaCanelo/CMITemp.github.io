@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obra Social</title>
+    <link rel="shortcut icon" href="./img/logo.png" />
+    <!-- Archico CSS principal -->
+    <link rel="stylesheet" href="./ObraSocial.css">
+    <!-- Para iconos de Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Libreria Lightbox para las galerias de imagenes -->
+    <link rel="stylesheet" href="../lightbox/lightbox.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+
+            <div class="logo-container">
+                <a href="../Pagina_Principal/index.html" class="logo"><img src="./img/logo.png"> Congregación Mita </a>
+            </div>
+
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="#">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-link" style="--i: .86s">
+                            <a href="#"> Líderes espirituales <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Juanita García Peraza</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Teófilo Vargas Seín</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Música <i
+                                    class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">Banda de
+                                            viento</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">Academias
+                                            musicales</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">Agrupación de
+                                            arpas</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">Agrupación de
+                                            cuerdas
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm">Coro de Mita
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Países <i class="fa-solid fa-caret-down i3"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Puerto Rico</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Estados Unidos</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">República Dominicana</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Más</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Más de  nosotros <i class="fa-solid fa-caret-down i4"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">Cuerpos
+                                            ministeriales</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Obra_Social/ObraSocial.html">Obra social</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Niñez_y_Juventud/NiñezYJuventud.html">Niñez y juventud</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Eventos_Historicos/EventosHistoricos.html">Eventos históricos</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Eventos_Historicos/EventosHistoricos.html">Templo principal</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Contactanos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#"><i class="fa-solid fa-earth-americas"
+                                    style="font-size: 20px; padding-top: 10px; "></i> <i
+                                    class="fa-solid fa-caret-down i5"></i></a>
+                            <div class="dropdown dropdown-idiomas">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Español</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">English</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Italiano</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Deutsch</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Português</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Français</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">日本</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">中国人</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Contenido Princial -->
+
+    <div class="title">
+        <h1>Obra Social</h1>
+    </div>
+
+    <section class="about" id="ccm">
+        <div class="content">
+            <div class="text">
+                <h1>Colegio Congregación Mita</h1>
+                <h5>Fundado en 1981</h5>
+                <P> El Colegio Congregación Mita está acreditado por la Middle State Association. Ofrece servicios de
+                    guardería infantil e imparte enseñanza desde prekínder hasta duodécimo grado. En el nivel superior
+                    cuenta con el programa de educación comercial y avanzado. Ha recibido premios a nivel nacional e
+                    internacional por su programa de deportes, así como en certámenes de oratoria, competencias
+                    intelectuales y de talentos de la Sociedad de Honor, entre otros.</P>
+            </div>
+            <div class="bandCarousel">
+                <a href="../Fotos/19.jpg"data-lightbox="models" data-title="">
+                    <img src="../Fotos/19.jpg">
+                </a>
+            </div>
+            <h1 class="galleryH1">Galería</h1>
+            <div class="gallery">
+                <a href="../Fotos/Colegio/85.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Colegio/85.jpg">
+                </a>
+                <a href="../Fotos/Colegio/86.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Colegio/86.jpg">
+                </a>
+                <a href="../Fotos/Colegio/87.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Colegio/87.jpg">
+                </a>
+            </div>
+            <div class="SMLinkContainer">
+                <a href="https://www.facebook.com/profile.php?id=100022213402925" target="_blank" class="SMLink"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-icon">
+        <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <section class="about" id="aboutEgida">
+        <div class="content">
+            <div class="bandCarousel">
+                <a href="../Fotos/20.jpg"data-lightbox="models" data-title="">
+                    <img src="../Fotos/20.jpg">
+                </a>
+            </div>
+            <div class="text">
+                <h1>Egida e Institución El Paraíso</h1>
+                <h5>Fundada en 1985</h5>
+                <P>La Égida e Institución El Paraíso fue fundada bajo las leyes establecidas por el Estado Libre
+                    Asociado de Puerto Rico. Como una institución sin fines de lucro, surge de la gran necesidad de
+                    brindar unos servicios especializados a las personas de mayor edad que carecen de cuidados. Cuenta
+                    con servicio de enfermería, ambulancias, trabajo social, consejería espiritual, entre otros. </P>
+            </div>
+            <div class="SMLinkContainer" id="SMLinkContainerEgida">
+                <a href="https://www.facebook.com/egidaelparaiso" target="_blank" class="SMLink"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-icon">
+        <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <section class="about" id="oots">
+        <div class="content">
+            <div class="text">
+                <h1>Oficina de Orientación y Trabajo Social</h1>
+                <h5> Fundada en el 1985</h5>
+                <P>La Oficina de Orientación y Trabajo Social de la Congregación Mita ha estado ofreciendo servicios
+                    sociales directos a la comunidad en general (niños, adolescentes, adultos y ancianos) a través del
+                    trabajo de casos. Surge por la gran necesidad de lograr en nuestro pueblo el desarrollo integral del
+                    individuo, ya que entendemos que el ser humano es un ente bio-psico-social-cultural-espiritual.
+                    Cuenta con trabajadoras sociales colegiadas y licenciadas, una psicóloga clínica, una terapista
+                    educativa y una división de Archivo Histórico, donde se preserva toda la historia de la Congregación
+                    Mita. Los servicios que ofrece a la comunidad en general son gratuitos.</P>
+            </div>
+            <div class="bandCarousel">
+                <a href="../Fotos/21.jpg"data-lightbox="models" data-title="">
+                    <img src="../Fotos/21.jpg" id="imgOficina">
+                </a>
+            </div>
+            <div class="SMLinkContainer" id="SMLinkContainerOficina">
+                <a href="https://www.facebook.com/ootscmpr" target="_blank" class="SMLink"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="socialMediaIcons">
+            <div class="wrapper">
+                <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+                    <div class="button">
+                        <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                        <span>Facebook</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+                    <div class="button">
+                        <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+                        <span>Youtube</span>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="button">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <span>Contacto</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="divider-icon" id="dividerIconFooter">
+            <p><img src="./img/logo.png" /></p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Congregación Mita Inc. Copyright © 2023 Derechos Reservados. Términos y Condiciones</p>
+        </div>
+    </footer>
+
+    <!-- Para los iconos -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Script -->
+    <script src="./ObraSocial.js"></script>
+    <script src="../lightbox/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

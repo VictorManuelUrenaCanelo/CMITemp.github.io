@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Historicos</title>
+    <link rel="shortcut icon" href="./img/logo.png" />
+    <!-- Archico CSS principal -->
+    <link rel="stylesheet" href="./EventosHistoricos.css">
+    <!-- Para iconos de Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Libreria Lightbox para las galerias de imagenes -->
+    <link rel="stylesheet" href="../lightbox/lightbox.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="Navbar-container">
+            <input type="checkbox" name="" id="check">
+
+            <div class="logo-container">
+                <a href="../Pagina_Principal/index.html" class="logo"><img src="./img/logo.png">  Congregación Mita </a>
+            </div>
+
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="#">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-link" style="--i: .86s">
+                            <a href="#"> Líderes Espirituales <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Juanita García Peraza</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Teófilo Vargas Seín</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Música <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">Banda de
+                                            viento</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">Academias
+                                            musicales</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">Agrupación de
+                                            arpas</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">Agrupación de
+                                            cuerdas
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm">Coro de Mita
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Países <i class="fa-solid fa-caret-down i3"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Puerto Rico</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Estados Unidos</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">República Dominicana</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Más</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Sobre Nosotros <i class="fa-solid fa-caret-down i4"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">Cuerpos
+                                            ministeriales</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Obra_Social/ObraSocial.html">Obra social</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Niñez_y_Juventud/NiñezYJuventud.html">Niñez y juventud</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Eventos_Historicos/EventosHistoricos.html">Eventos históricos</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Eventos_Historicos/EventosHistoricos.html">Templo principal</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Contactanos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#"><i class="fa-solid fa-earth-americas"
+                                    style="font-size: 20px; padding-top: 10px; "></i> <i
+                                    class="fa-solid fa-caret-down i5"></i></a>
+                            <div class="dropdown dropdown-idiomas">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Español</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">English</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Italiano</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Deutsch</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Português</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Français</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">日本</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">中国人</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Timeline -->
+
+    <div class="title">
+        <h1>Eventos Historicos</h1>
+    </div>
+
+    <div class="timeline">
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Nacimiento de Juanita García Peraza</h2>
+                <small>24 de junio de 1897</small>
+                    <a href="../Fotos/52.jpg" data-lightbox="models" data-title="">
+                        <p>
+                            <img src="../Fotos/52.jpg" alt="">
+                        </p>
+                    </a>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Nacimiento de Aarón</h2>
+                <small>23 de octubre de 1921</small>
+                <a href="../Fotos/48.jpg" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/48.jpg" alt="">
+                    </p>
+                </a>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Nacimiento de Rosinín</h2>
+                <small>18 de octubre de 1937</small>
+                <a href="../Fotos/49.jpg" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/49.jpg" alt="">
+                    </p>
+                </a>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Surge la Congregación Mita en Arecibo, Puerto Rico con 11 hermanos.
+                </h2>
+                <small>1940</small>
+                
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Inauguración del primer templo ubicado en el sector Las Monjas en San Juan, Puerto Rico.</h2>
+                <small>11 de enero de 1943</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Se traslada la sede de la Congregación desde Arecibo hasta Hato Rey, Puerto Rico. Se establece el Cuerpo de Guardas.</h2>
+                <small>1947</small>
+                
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Llega la Congregación Mita a Nueva York.</h2>
+                <small>1948</small>
+            
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Se establece la Agrupación de Cuerdas.</h2>
+                <small>1950</small>
+                
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Se adquiere la finca El Paraíso.</h2>
+                <small>1951</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Se establece la Banda de Mita.</h2>
+                <small>1956</small>
+                
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Rosinín conoce la Obra de Mita</h2>
+                <small>1962</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Llega la Congregación Mita a República Dominicana.</h2>
+                <small>1963</small>
+                <a href="../Fotos/57.jpg" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/57.jpg" alt="">
+                    </p>
+                </a>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>La Banda de Mita participa en el Desfile Puertorriqueño en la ciudad de Nueva York.</h2>
+                <small>1969</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Fallecimiento de Juanita García Peraza y Aarón asume el liderato de la Congregación. Llega la Obra de Mita a Colombia.</h2>
+                <small>1970</small>
+                <a href="../Fotos/58.jpg" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/58.jpg" alt="">
+                    </p>
+                </a>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Inauguración del Supermercado Plaza París</h2>
+                <small>1973</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Se funda la Cooperativa de Ahorro y Crédito Hermanos Unidos.</h2>
+                <small>1974</small>
+                <a href="../Fotos/60.png" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/60.png" alt="">
+                    </p>
+                </a>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Se adquiere la Finca de Bayamón.</h2>
+                <small>1976</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Llega la Congregación Mita a México.</h2>
+                <small>1980</small>
+                <a href="../Fotos/61.png" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/61.png" alt="">
+                    </p>
+                </a>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Se funda el Colegio Congregación Mita.</h2>
+                <small>1981</small>
+                <a href="../Fotos/19.jpg" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/19.jpg" alt="">
+                    </p>
+                </a>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Llega la Congregación Mita a Venezuela.</h2>
+                <small>1982</small>
+                <a href="../Fotos/62.png" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/62.png" alt="">
+                    </p>
+                </a>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Se establece la Égida e Institución El Paraíso. Se establece la Oficina de Orientación y Trabajo Social.</h2>
+                <small>1985</small>
+                <a href="../Fotos/20.jpg" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/20.jpg" alt="">
+                    </p>
+                </a>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Llega la Congregación Mita a Costa Rica. Se establece la Agrupación de Arpas. Se comienza a celebrar la Feria de Artesanías y Piezas de Molde.</h2>
+                <small>1986</small>
+        
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box">
+                <h2>Llega la Congregación Mita a Panamá.</h2>
+                <small>1987</small>
+                <a href="../Fotos/64.png" data-lightbox="models" data-title="">
+                    <p>
+                        <img src="../Fotos/64.png" alt="">
+                    </p>
+                </a>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>La Banda de Mita gana el premio presidente en una competencia de bandas en San Juan, Puerto Rico.</h2>
+                <small>1988</small>
+                
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Celebración del quincuagésimo aniversario de la Congregación Mita e inauguración del Templo Nuevo. Se establece la Corporación Los Hermanos. Se establece la Panadería y repostería América. Se organiza el Coro de Mita.</h2>
+                <small>1990</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Llega la Congregación Mita a Canadá.</h2>
+                <small>1991</small>
+                
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>La Banda de Mita es invitada por el gobierno de Puerto Rico para participar en la conmemoración de los 500 años del Descubrimiento de América en Sevilla, España (Expo-92).</h2>
+                <small>1992</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Llega la Congregación Mita a El Salvador.</h2>
+                <small>1993</small>
+              
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Llega la Congregación Mita a España.</h2>
+                <small>2003</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Se inaugura el Centro de Salud Dr. Luis Daniel Silva.</h2>
+                <small>2007</small>
+                
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Se inaugura Los Hermanos Memorial Park.</h2>
+                <small>2010</small>
+                
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Aarón nombra a Rosinín «madre espiritual».</h2>
+                <small>2012</small>
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container left-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>La Banda de Mita participa en un desfile en el parque Magic Kingdom en Walt Disney World. </h2>
+                <small>2018</small>
+                <span class="left-container-arrow leftArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+        <div class="container right-container">
+            <img src="./img/logo.png">
+            <div class="text-box eventoSecundario">
+                <h2>Fallecimiento de Aarón y Rosinín asume el liderato de la Congregación.</h2>
+                <small>2021</small>
+                <span class="right-container-arrow rightArrowEventoSecundario"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="socialMediaIcons">
+          <div class="wrapper">
+            <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+              <div class="button">
+                <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                <span>Facebook</span>
+              </div>
+            </a>
+    
+            <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+              <div class="button">
+                <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+                <span>Youtube</span>
+              </div>
+            </a>
+    
+            <a href="#">
+              <div class="button">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                <span>Contacto</span>
+              </div>
+            </a>
+          </div>
+        </div>
+    
+        <div class="divider-icon">
+          <p><img src="./img/logo.png" /></p>
+        </div>
+    
+        <div class="footer-bottom">
+          <p>Congregación Mita Inc. Copyright © 2023 Derechos Reservados. Términos y Condiciones</p>
+        </div>
+      </footer>
+
+
+    <!-- Para los iconos -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Script -->
+    <script src="./EventosHistoricos.js"></script>
+    <script src="../lightbox/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

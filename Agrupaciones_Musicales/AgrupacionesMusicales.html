@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupaciones Musicales</title>
+    <link rel="shortcut icon" href="./img/logo.png" />
+    <!-- Archico CSS principal -->
+    <link rel="stylesheet" href="./AgrupacionesMusicales.css">
+    <!-- Para iconos de Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- Libreria Lightbox para las galerias de imagenes -->
+    <link rel="stylesheet" href="../lightbox/lightbox.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <input type="checkbox" name="" id="check">
+
+            <div class="logo-container">
+                <a href="../Pagina_Principal/index.html" class="logo"><img src="./img/logo.png"> Congregación Mita </a>
+            </div>
+
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link" style="--i: .6s">
+                            <a href="#">¿Quiénes somos?</a>
+                        </li>
+                        <li class="nav-link" style="--i: .86s">
+                            <a href="#"> Líderes espirituales <i class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html" onclick="">Juanita García Peraza</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Teófilo Vargas Seín</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Lideres_Espirituales/LideresEspirituales.html">Rosinín Rodríguez Pérez</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Música <i
+                                    class="fa-solid fa-caret-down"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#bv">Banda de
+                                            viento</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#am">Academias
+                                            musicales</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#aa">Agrupación de
+                                            arpas</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#ac">Agrupación de
+                                            cuerdas
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html#cm">Coro de Mita
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Países <i class="fa-solid fa-caret-down i3"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Puerto Rico</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Estados Unidos</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">República Dominicana</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Más</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#">Más de  nosotros <i class="fa-solid fa-caret-down i4"></i></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="../Cuerpos_Ministeriales/CuerposMinisteriales.html">Cuerpos
+                                            ministeriales</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Obra_Social/ObraSocial.html">Obra social</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Niñez_y_Juventud/NiñezYJuventud.html">Niñez y juventud</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Eventos_Historicos/EventosHistoricos.html">Eventos históricos</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="../Eventos_Historicos/EventosHistoricos.html">Templo principal</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Contactanos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-link" style="--i: 1.1s">
+                            <a href="#"><i class="fa-solid fa-earth-americas"
+                                    style="font-size: 20px; padding-top: 10px; "></i> <i
+                                    class="fa-solid fa-caret-down i5"></i></a>
+                            <div class="dropdown dropdown-idiomas">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="#">Español</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">English</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Italiano</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Deutsch</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Português</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">Français</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">日本</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="#">中国人</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="hamburger-menu-container">
+                <div class="hamburger-menu">
+                    <div></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Contenido Princial -->
+
+    <div class="title">
+        <h1>Agrupaciones Musicales</h1>
+    </div>
+
+    <section class="about" id="bv">
+        <div class="content">
+            <div class="text">
+                <h1>Banda de viento</h1>
+                <h5>Fundada en 1956 </h5>
+                <P>La Banda de Mita de Puerto Rico está compuesta por 130 músicos. Se ha destacado en diversas
+                    actividades gubernamentales, cívicas, culturales, sociales en y fuera del país. Ha representado a
+                    Puerto Rico en el Desfile Puertorriqueño en la ciudad de New York, en la Exposición Universal en
+                    Sevilla, España y en un sinnúmero de actividades tanto en Puerto Rico como internacionalmente. Ha
+                    ganado premios por su calidad de sonido, su formación y uniforme de gala.</P>
+            </div>
+            <div class="bandCarousel">
+                <a href="../Fotos/Banda de viento/3.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/3.jpg" class="mainPicture">
+                </a>
+            </div>
+            <h1 class="galleryH1">Galería</h1><i class="fa-light fa-trumpet"></i>
+            <div class="gallery">
+                <a href="../Fotos/Banda de viento/1.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/1.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/9.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/9.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/4.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/4.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/10.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/10.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/7.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/7.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/2.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/2.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/5.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/5.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/6.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/6.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/8.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/8.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/11.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/11.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/12.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/12.jpg">
+                </a>
+                <a href="../Fotos/Banda de viento/17.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/17.jpg">
+                </a>
+            </div>
+            <div class="SMLinkContainer">
+                <a href="https://www.facebook.com/BandaMita" target="_blank" class="SMLink"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-icon">
+        <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <section class="about" id="am">
+        <div class="content">
+            <div class="bandCarousel">
+                <a href="../Fotos/Banda de viento/6.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Banda de viento/6.jpg" class="mainPicture">
+                </a>
+            </div>
+            <div class="text">
+                <h1>Academias musicales</h1>
+                <P> Los hermanos de la Congregación que desean formar parte de la Banda u otra agrupación ingresan a la
+                    Academia para recibir conocimientos musicales por profesionales del área. Estas clases son gratuitas
+                    y los maestros de música las brindan en su tiempo disponible. Los estudiantes aprenden a solfear,
+                    desarrollan técnicas instrumentales y de interpretación.</P>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-icon">
+        <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <section class="about" id="aa">
+        <div class="content">
+            <div class="text">
+                <h1>Agrupación de Arpas</h1>
+                <h5>Fundada en 1986</h5>
+                <P>Es la única Agrupación de Arpas en Puerto Rico. Goza de un gran prestigio en Puerto Rico; ha
+                    participado en un sinnúmero de actividades gubernamentales, cívicas, sociales y culturales.
+                    Constantemente se reciben elogios hacia nuestra agrupación y cientos de invitaciones para participar
+                    en diversas actividades. Ofician en todos nuestros servicios religiosos entonando himnos de
+                    alabanzas a Dios.</P>
+            </div>
+            <div class="bandCarousel">
+                <a href="../Fotos/Arpas/15.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Arpas/15.jpg" class="mainPicture">
+                </a>
+            </div>
+            <div class="SMLinkContainer" id="arpasFaceLink">
+                <a href="https://www.facebook.com/ArpasdeMita" target="_blank" class="SMLink"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-icon">
+        <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <section class="about" id="ac">
+        <div class="content">
+            <div class="bandCarousel">
+                <a href="../Fotos/Cuerdas/16.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Cuerdas/16.jpg" class="mainPicture">
+                </a>
+            </div>
+            <div class="text">
+                <h1>Agrupación de Cuerdas</h1>
+                <h5>Fundada en 1950</h5>
+                <P>En la actualidad cuenta con 75 miembros. Los instrumentos que forman parte de esta agrupación son:
+                    guitarra, cuatro puertorriqueño, requinto, tiple, mandolina, bajo de cuerdas y percusión. Este grupo
+                    musical ha participado en diversas actividades culturales y oficia en todos nuestros servicios
+                    religiosos. Además, acompañan a los predicadores a los distintos pueblos llevando el mensaje de
+                    salvación.</P>
+            </div>
+            <h1 class="galleryH1">Galería</h1>
+            <div class="gallery">
+                <a href="../Fotos/Cuerdas/14.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Cuerdas/14.jpg">
+                </a>
+                <a href="../Fotos/Cuerdas/78.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Cuerdas/78.jpg">
+                </a>
+            </div>
+            <div class="SMLinkContainer">
+                <a href="https://www.facebook.com/bandadecuerdasdemita" target="_blank" class="SMLink"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider-icon">
+        <p><img src="./img/logo.png" /></p>
+    </div>
+
+    <section class="about" id="cm">
+        <div class="content">
+            <div class="text">
+                <h1>Coro de Mita</h1>
+                <h5>Fundado en 1990</h5>
+                <P>Consta de 25 integrantes jóvenes y adultos, quienes ofician en los servicios religiosos de la
+                    Congregación interpretando himnos de alabanzas a Dios. Se agrupan en las siguientes voces: sopranos,
+                    altos, tenores y bajos. Periódicamente ofrecen conciertos para el deleite de la comunidad en
+                    general. </P>
+            </div>
+            <div class="bandCarousel">
+                <a href="../Fotos/Coro/88.jpg" data-lightbox="models" data-title="">
+                    <img src="../Fotos/Coro/88.jpg" class="mainPicture">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="socialMediaIcons">
+            <div class="wrapper">
+                <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+                    <div class="button">
+                        <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+                        <span>Facebook</span>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+                    <div class="button">
+                        <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+                        <span>Youtube</span>
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="button">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <span>Contacto</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="divider-icon">
+            <p><img src="./img/logo.png" /></p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Congregación Mita Inc. Copyright © 2023 Derechos Reservados. Términos y Condiciones</p>
+        </div>
+    </footer>
+
+
+    <!-- Para los iconos -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!-- Script -->
+    <script src="./AgrupacionesMusicales.js"></script>
+    <script src="../lightbox/lightbox-plus-jquery.js"></script>
+</body>
+
+</html>

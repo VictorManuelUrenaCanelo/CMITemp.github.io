@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Congregación Mita Inc.</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- Bootstrap CSS CDN Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- CSS stylesheet Link -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- Para iconos de Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <!-- Nav bar  -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #FFFF;">
+    <a class="navbar-brand" href="index.html"> <img src="images/logo.png" width="35" height="35"
+        alt="Congregación Mita"> Congregación Mita</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+
+        <!--Doctrina item-->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Doctrina</a>
+        </li>
+        <!--lideres espirituales item-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Líderes espirituales
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Juanita (Mita)</a></li>
+            <li><a class="dropdown-item" href="#">Aarón</a></li>
+            <li><a class="dropdown-item" href="#">Rosinín</a></li>
+          </ul>
+        </li>
+        <!--musica item-->
+        <li class="nav-item dropdown">
+          <a href="../Agrupaciones_Musicales/AgrupacionesMusicales.html" class="nav-link dropdown-toggle" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Música
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Banda de
+                vientos</a></li>
+            <li><a class="dropdown-item" href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Banda de
+                cuerdas</a></li>
+            <li><a class="dropdown-item" href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Agrupación de
+                arpas</a></li>
+            <li><a class="dropdown-item" href="../Agrupaciones_Musicales/AgrupacionesMusicales.html">Agrupación
+                Coral</a></li>
+          </ul>
+        </li>
+        <!--paises item-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Países
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Puerto Rico</a></li>
+            <li><a class="dropdown-item" href="#">Estados Unidos</a></li>
+            <li><a class="dropdown-item" href="#">República Dominicana</a></li>
+            <li>
+              <hr class="dropdown-divider" style="border-color:black; width: 100%; padding-bottom: 0;">
+            </li>
+            <li><a class="dropdown-item" href="#">Más</a></li>
+          </ul>
+        </li>
+        <!--sobre nosotros item-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sobre nosotros
+          </a>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="../Eventos_Historicos/EventosHistoricos.html">Eventos históricos</a></li>
+            <li><a class="dropdown-item" href="../Servicio_Social/ServicioSocial.html">Servicio social</a></li>
+            <li><a class="dropdown-item" href="#">Contactanos</a></li>
+          </ul>
+        </li>
+
+        <!--language item-->
+        <li class="nav-item dropdown .dropleft">
+          <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa-solid fa-earth-americas" style="font-size: 20px; "></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#"><img class="flags-size" src="images/es.svg" alt="Español"></a></li>
+            <li><a class="dropdown-item" href="#"><img class="flags-size" src="images/gb.svg" alt="English"></a></li>
+            <li><a class="dropdown-item" href="#"><img class="flags-size" src="images/it.svg" alt="Italiano"></a></li>
+            <li><a class="dropdown-item" href="#"><img class="flags-size" src="images/de.svg" alt="Detush"></a></li>
+            <li><a class="dropdown-item" href="#"><img class="flags-size" src="images/br.svg" alt="Português"></a></li>
+            <li><a class="dropdown-item" href="#"><img class="flags-size" src="images/fr.svg" alt="Français"></a></li>
+            <li><a class="dropdown-item" href="#"><img class="flags-size" src="images/jp.svg" alt="日本"></a></li>
+            <li><a class="dropdown-item" href="#"><img class="flags-size" src="images/cn.svg" alt="普通话"></a></li>
+
+          </ul>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner carouselSize">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/carousel1.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carousel2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/carousel3.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  <hr>
+  <!-- Doctrina -->
+  <div class="container-doctrina">
+    <h1>Doctrina</h1>
+    <p class="mensj">
+      La Congregación Mita Inc. es una Iglesia Cristiana, cuya doctrina está basada en la Santa Biblia, su fundamento es
+      la Santísima Trinidad: Dios-Padre, Dios-Hijo y Dios-Espíritu Santo. El Perfil Doctrinal se basa en el amor. Amor a
+      Dios sobre todas las cosas y por amor de Dios, amor al prójimo como a sí mismo. <br><br>
+      Cree que la Biblia da testimonio de la Obra de Dios desde la creación; acepta y enfatiza la práctica de los
+      preceptos bíblicos establecidos por Cristo en el Nuevo Testamento. Cree firmemente en la promesa de Jesucristo,
+      quien dijo que enviaría al Espíritu Santo, el Consolador Prometido, para estar con sus hijos para siempre (Juan
+      14:16). Por fe, la Iglesia Mita cree que el Espíritu Santo de Dios está en la tierra, que su nombre nuevo es Mita
+      y que a través de Rosinín dirige su Iglesia y la guía a toda verdad y justicia para llevarlos a salvación.
+      <br><br>
+      Es la continuación de la Iglesia Primitiva de Apóstoles y Profetas que realiza una obra de bien, obra de fe y de
+      levantamiento. Proclama un mensaje triple de amor, libertad y unidad para que todo el que sienta necesidad de Dios
+      reciba la palabra redentora, transformadora, haciendo de él o ella una persona de provecho a la sociedad. <br><br>
+      Creemos que esta es la tercera dispensación de Dios en la tierra con el ser humano. Siendo la primera dispensación
+      la del Padre, donde con el nombre de Jehová, Dios guio a su pueblo a través de los Profetas. La segunda
+      dispensación es la de Dios como Hijo, con el nombre de Jesucristo, donde a través de su hijo y luego a través de
+      los apóstoles, guio a su pueblo. Ahora, la tercera dispensación, es la del Espíritu Santo donde Dios, con su
+      Nombre Nuevo Mita, dirige a su pueblo a través de sus profetas. Primero a través de Juanita García Peraza (La
+      Persona de Mita), luego a través de Teófilo Vargas Seín (Aarón) y ahora a través de Rosinín Rodríguez. <br><br>
+      El nombre de Mita es el cumplimiento de las profecías bíblicas que indicaban claramente que Dios habría de revelar
+      un Nombre Nuevo para estos días (Isaías 52:6, 62:2. Apocalipsis 2:17 y 3:12). Esas profecías bíblicas, que
+      representan un enigma aún para tantos estudiosos de la biblia a nivel mundial, es la revelación que nos ha sido
+      mostrada a este pueblo en este tiempo. <br><br>
+      Cuando hablamos de Mita en nuestros cánticos o servicios religiosos, no nos referimos al cuerpo humano de Juanita
+      García Peraza, quien fue nuestra fundadora y Profeta escogida por Dios, sino que nos referimos al Espíritu Santo
+      de Dios que ha revelado su Nombre Nuevo. <br><br>
+      Nosotros, la Congregación Mita, aceptamos la Biblia en toda su esencia. Resaltamos que nuestra doctrina está
+      basada en los preceptos que dejó Cristo establecidos. Porque entendemos que es el nuevo pacto que Dios estableció
+      con el ser humano para estos últimos días. Entendiendo que aquellos mismos rudimentos que Dios le había
+      encomendado a Abraham y al Pueblo de Israel, venido Cristo los enmendó para entrar en una nueva etapa, en una
+      nueva era, que no hay que guardar el sábado ni ofrecer holocaustos ni sacrificio como lo hacían antiguamente ni
+      quemar perfumes, sino que, ahora la salvación estriba en que el ser humano oiga la voz del Espíritu Santo que es
+      el que está en la tierra, llevando a cabo su Obra de redención.
+    </p>
+  </div>
+  <hr>
+
+  <!--Lideres espirituales item-->
+  <div>
+    <h1>Líderes espirituales</h1>
+    <div class="lideres-espirituales">
+      <a href=""><img class="lideresimg" src="images/juanita.jpg" alt="Juanita G. Peraza"></a>
+      <a href=""><img class="lideresimg" src="images/aarón.jpg" alt="Aarón"></a>
+      <a href=""><img class="lideresimg" src="images/rosinín.jpg" alt="Rosinín"></a>
+    </div>
+
+    <div class="lideres-nombres">
+      <a href="">
+        <h2 class="juanita">Juanita G. Peraza</h2>
+      </a>
+      <a href="">
+        <h2 class="aaron">Aarón</h2>
+      </a>
+      <a href="">
+        <h2 class="rosinin">Rosinín Rodríguez</h2>
+      </a>
+    </div>
+  </div>
+
+  <hr>
+
+  <!--Eventos históricos item-->
+  <div>
+    <h1>Eventos históricos</h1>
+    <h3>Descubre fechas importantes que han marcado nuestra historia</h3>
+  </div>
+
+  <!-- Time line item -->
+  <div class="process-wrapper">
+    <div id="progress-bar-container">
+      <ul>
+        <li class="step step01 active">
+          <div class="step-inner">1940</div>
+        </li>
+        <li class="step step02">
+          <div class="step-inner">1957</div>
+        </li>
+        <li class="step step03">
+          <div class="step-inner">1960</div>
+        </li>
+        <li class="step step04">
+          <div class="step-inner">1970</div>
+        </li>
+        <li class="step step05">
+          <div class="step-inner">2012</div>
+        </li>
+      </ul>
+
+      <div id="line">
+        <div id="line-progress"></div>
+      </div>
+    </div>
+
+    <div id="progress-content-section">
+      <div class="section-content discovery active">
+        <h2>Dios levanta esta Obra</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac,
+          tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem.
+          Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex
+          consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas
+          malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+      </div>
+
+      <div class="section-content strategy">
+        <h2>Se establece la vestimenta blanca</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac,
+          tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem.
+          Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex
+          consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas
+          malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+      </div>
+
+      <div class="section-content creative">
+        <h2>Se inaugura el gran templo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac,
+          tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem.
+          Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex
+          consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas
+          malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+      </div>
+
+      <div class="section-content production">
+        <h2>Fallece la persona de Mita e inicia el Ministerio de Aarón</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac,
+          tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem.
+          Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex
+          consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas
+          malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+      </div>
+
+      <div class="section-content analysis">
+        <h2>Inicia el Ministerio de Rosinín</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec neque justo, consequat non fermentum ac,
+          tempor eu turpis. Proin nulla eros, placerat non ipsum ut, dapibus ullamcorper ex. Nulla in dapibus lorem.
+          Suspendisse vitae velit ac ante consequat placerat ut sed eros. Nullam porttitor mattis mi, id fringilla ex
+          consequat eu. Praesent pulvinar tincidunt leo et condimentum. Maecenas volutpat turpis at felis egestas
+          malesuada. Phasellus sem odio, venenatis at ex a, lacinia suscipit orci.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="ver-mas"><a class="mas-historia" href="google.com">
+      <h5 class="hola">Ver mas eventos históricos</h5>
+    </a></div>
+
+  <hr>
+
+  <h1>Serivicio social</h1>
+  <h3>Conoce como la Obra de Mita imparte luz y ayuda a la sociedad a través de las <br> siguientes instituciones</h3>
+
+  <div class="servicio-social-container">
+    <a href=""><img class="inc" src="images/colegio.jpeg" alt="Colegio Congregación Mita"></a>
+    <a href=""><img class="inc" src="images/egida.jpeg" alt="Égida e Institución El Paraíso"></a>
+    <a href=""><img class="inc" src="images/oficina.jpeg"
+        alt="Oficina de Orientación y Trabajo Social de la Congregación Mita"></a>
+  </div>
+
+  <hr>
+
+  <h1>Agrupaciones musicales</h1>
+  <h3>Conoce nuestras agrupaciones musicales a nivel internacional</h3>
+
+
+  <hr>
+
+  <h1>Países</h1>
+
+  <div>
+    <h3>Conoce Nuestra Congregación en los 4 Cantones de la Tierra</h3>
+  </div>
+
+  <div>
+    <a href=""><img class="paises" src="images/paises1.jpg" alt="Congregación alrededor del mundo"></a>
+  </div>
+
+  <!--
+<div class="footer-div">
+  <footer>
+    <a href="https://www.facebook.com/CongregacionMita"><i class="bi bi-facebook"></i></a>
+    <a href="https://www.youtube.com/@CongregacionMitaInc/videos"><i class="bi bi-youtube"></i></a>
+    <br>
+    Congregación Mita Inc. Copyright © 2023 Derechos Reservados. Términos y Condiciones
+  </footer>
+</div>-->
+
+  <footer>
+    <div class="socialMediaIcons">
+      <div class="wrapper">
+        <a href="https://www.facebook.com/CongregacionMita" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-facebook"></i></div>
+            <span>Facebook</span>
+          </div>
+        </a>
+
+        <a href="https://www.youtube.com/@CongregacionMitaInc/videos" target="_blank">
+          <div class="button">
+            <div class="icon"><i class="fa-brands fa-youtube"></i></div>
+            <span>Youtube</span>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="button">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <span>Contacto</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="divider-icon">
+      <p><img src="./images/logo.png" /></p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Congregación Mita Inc. Copyright © 2023 Derechos Reservados. Términos y Condiciones</p>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script>
+
+    $(".step").click(function () {
+      $(this).addClass("active").prevAll().addClass("active");
+      $(this).nextAll().removeClass("active");
+    });
+
+    $(".step01").click(function () {
+      $("#line-progress").css("width", "3%");
+      $(".discovery").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step02").click(function () {
+      $("#line-progress").css("width", "25%");
+      $(".strategy").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step03").click(function () {
+      $("#line-progress").css("width", "50%");
+      $(".creative").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step04").click(function () {
+      $("#line-progress").css("width", "75%");
+      $(".production").addClass("active").siblings().removeClass("active");
+    });
+
+    $(".step05").click(function () {
+      $("#line-progress").css("width", "100%");
+      $(".analysis").addClass("active").siblings().removeClass("active");
+    });
+
+
+  </script>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS CDN Link  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
