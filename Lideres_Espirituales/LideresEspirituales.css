@@ -11,6 +11,10 @@ body {
     background: #fff;
     height: 500vh;
     overflow-x: hidden;
+    background-image: url(../Fotos/90.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /*Navigation Bar-----------------------------------------------------------------------------------------------*/
@@ -29,6 +33,7 @@ header {
     width: 100%;
     z-index: 1000;
     background-color: #fff;
+    margin-bottom: 20px;
 }
 
 .container {
@@ -291,7 +296,7 @@ header {
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1057px) {
 
     .container {
         padding: 5px 5px;
@@ -463,7 +468,7 @@ header {
 /*Contenido Princial-----------------------------------------------------------------------------------------------*/
 
 .title {
-    color: #DF6E8E;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -504,7 +509,6 @@ header {
 
 .mainContent{
     width: 100%;
-    height: 100vh;
 }
 
 .fotosProfetas{
@@ -516,9 +520,18 @@ header {
     margin-bottom: 20px;
 }
 
+.foto{
+    width: 150px;
+    border-radius: 15px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .fotosProfetas img {
     width: 150px;
-    border-radius: 20px;
     transition: .2s linear;
     cursor: pointer;
 }
@@ -532,6 +545,11 @@ header {
 }
 
 @media screen and (max-width: 500px) {
+    
+    .foto{
+        width: 100px;
+    }
+
     .fotosProfetas img {
         width: 100px;
     }
@@ -546,6 +564,11 @@ header {
 }
 
 @media screen and (max-width: 340px) {
+
+    .foto{
+        width: 80px;
+    }
+
     .fotosProfetas img {
         width: 80px;
     }
@@ -555,9 +578,18 @@ header {
     }
 }
 
+.textInsideBio h1{
+    font-size: 40px;
+}
+
+@media screen and (max-width: 472px) {
+    .textInsideBio h1{
+        font-size: 35px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .textInsideBio h1{
-
         font-size: 25px;
     }
 }
@@ -573,6 +605,9 @@ header {
     width: 100%;
     height: auto;
     display: flex;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .textBio1 {
@@ -709,7 +744,8 @@ header {
 }*/
 
 .row .right .content p{
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 400;
     line-height: 20px;
     padding-bottom: 15px;
 }
