@@ -526,7 +526,7 @@ header {
 .foto{
     width: 150px;
     border-radius: 15px;
-    border: 5px solid #fff;
+    border: 2px solid #fff;
     overflow: hidden;
     display: flex;
     align-items: center;
