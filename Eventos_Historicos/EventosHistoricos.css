@@ -889,10 +889,6 @@ footer {
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button:hover {
-    width: 200px;
-}
-
 .wrapper .button .icon {
     display: inline-block;
     height: 60px;

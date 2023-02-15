@@ -552,6 +552,12 @@ header {
     font-size: 30px;
 }
 
+.galleryInfo{
+   width: 100%;
+   color: #214194;
+   font-weight: 600;
+}
+
 .about .content .gallery {
     width: 100%;
     height: 130px;
@@ -580,13 +586,7 @@ header {
     margin-right: 5px;
 }
 
-#amGallery{
-    height: 200px;
-}
 
-.gallery video{
-    width: 320px;
-}
 
 .text h1 {
     color: #214194;
@@ -736,9 +736,6 @@ footer {
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button:hover {
-    width: 200px;
-}
 
 .wrapper .button .icon {
     display: inline-block;

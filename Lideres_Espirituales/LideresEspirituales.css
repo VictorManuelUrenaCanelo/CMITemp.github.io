@@ -13,6 +13,9 @@ body {
     overflow-x: hidden;
     background-image: url(../Fotos/90.jpg);
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -moz-backface-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -671,10 +674,17 @@ header {
     }
 }
 
+@media screen and (max-width: 1150px) {
+    .textBio1, .textBio2, .textBio3{
+        text-align: center;
+    }
+}
+
 .ulRosinin{
     padding-left: 25px;
     list-style-type: square;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 /*#bio_1_Img_1,*/ #bio_1_Img_4, #bio_2_Img_1, #bio_2_Img_3, #bio_3_Img_1, #bio_3_Img_3  {
@@ -757,6 +767,13 @@ header {
     }
 }
 
+.bioAdvise{
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    background-color: #9AB7E0;
+    border-radius: 10px;
+}
 
 
 
@@ -795,10 +812,6 @@ footer {
     cursor: pointer;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-out;
-}
-
-.wrapper .button:hover {
-    width: 200px;
 }
 
 .wrapper .button .icon {
